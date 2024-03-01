@@ -1,0 +1,40 @@
+.admin h1 {
+  text-align: center;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+.actions {
+  display: flex;
+  gap: 1rem;
+}
+
+.edit-btn {
+  font-size: 1.1rem;
+  background-color: #13c9e9;
+  color: #000000;
+}
+
+.delete-btn {
+  font-size: 1.1rem;
+  background-color: #eb1717;
+  color: #fff;
+}
+
+@media screen and (max-width: 650px) {
+  .admin h1 {
+    font-size: 25px;
+  }
+
+  .post {
+    font-size: 12px;
+  }
+
+  .edit-btn {
+    font-size: 14px;
+  }
+  
+  .delete-btn {
+    font-size: 14px;
+  }
+}

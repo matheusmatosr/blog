@@ -1,0 +1,65 @@
+.new-post h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+form {
+  max-width: 500px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.form-control {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.form-control label {
+  margin-bottom: 0.5rem;
+}
+
+.form-control input,
+.form-control textarea {
+  padding: .5rem;
+  border-radius: 5px;
+  border: none;
+}
+
+.btn-new{
+  background-color: #006627;
+  color: #fff;
+  border: 1px solid #fff;
+  font-size: 15px;
+  opacity: 1;
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  max-width: 100px;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-new:hover {
+  background-color: #536d5d;
+  color: #fff;
+}
+
+.btn-edit{
+  background-color: #0024c2;
+  color: #fff;
+  border: 1px solid #fff;
+  font-size: 15px;
+  opacity: 1;
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  max-width: 100px;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-edit:hover{
+  background-color: #7b92f8;
+  color: #000000;
+}
