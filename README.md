@@ -6,7 +6,6 @@ Para rodar o projeto, siga o tutorial abaixo.
 
 Abra o terminal e faça os seguintes códigos:
 
-- cd blog 
 - yarn install
 - yarn run dev
 
